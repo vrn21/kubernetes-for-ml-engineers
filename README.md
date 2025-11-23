@@ -200,8 +200,8 @@ Now that we have the image in the cluster, we can deploy the app as a Kubernetes
 
 We will need to create 2 resources:
 
-- a [deployment.yaml](./deployment.yaml) -> which will define the pods that will run the app. In our case, we will have 3 replicas of the app.
-- a [service.yaml](./service.yaml) -> which will define how to access the app from outside the cluster
+- a [deployment.yaml](./manifests/deployment.yaml) -> which will define the pods that will run the app. In our case, we will have 3 replicas of the app.
+- a [service.yaml](./manifests/service.yaml) -> which will define how to access the app from outside the cluster
 
 Don't worry about the manifests for now. Kubernetes YAML files are notoriously verbose and hard to read.
 And if you are scared of them, you are not alone. I am scared of them too.
